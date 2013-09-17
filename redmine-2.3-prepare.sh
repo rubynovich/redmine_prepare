@@ -74,3 +74,10 @@ sudo chown -R $WWW_USERNAME files log tmp public/plugin_assets db
 sudo chmod -R 755 files log tmp public/plugin_assets
 sudo chmod -R 700 db
 
+# copy certs
+# cp project.u-k-s.ru.crt /etc/ssl/certs/
+# cp project.u-k-s.ru.key /etc/ssl/certs/
+#
+# copy nginx files
+# cp nginx /etc/init.d/
+# cp S50nginx /etc/rc.2/
